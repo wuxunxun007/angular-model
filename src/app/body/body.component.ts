@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BodyComponent implements OnInit {
 
-  private movielist = [
+  public movielist = [
     {
       id: 'movie001',
       title: '复联3',
